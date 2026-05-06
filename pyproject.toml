@@ -1,0 +1,11 @@
+[project]
+name = "salt-sysadmin-guide-windows"
+version = "0.1.0"
+description = "Documentation and Vagrant guide for Windows SysAdmins to learn Salt"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "myst-parser>=5.0",
+    "pydata-sphinx-theme>=0.17.1",
+    "sphinx>=9.1.0",
+]
